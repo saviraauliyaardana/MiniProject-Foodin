@@ -61,4 +61,7 @@
 a {
   color: black;
 }
+#navbar{
+  font-family: "Lobster", cursive;
+}
 </style>
