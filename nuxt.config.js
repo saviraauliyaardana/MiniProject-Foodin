@@ -12,10 +12,12 @@ export default {
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
-  },
+    link: [
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Lobster&display=swap' },
+    ]
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ["@/assets/css/font.css"],
+  ,css: ["@/assets/css/font.css"],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [{ src: "~/plugins/star-rating.js", mode: "client" }],
