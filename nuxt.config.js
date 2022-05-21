@@ -66,4 +66,5 @@ export default {
       // ...your other clients
     },
   },
-};
+}
+}
